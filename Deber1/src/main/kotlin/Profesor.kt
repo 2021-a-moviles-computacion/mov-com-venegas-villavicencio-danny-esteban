@@ -59,7 +59,7 @@ class Profesor(archivo1: Archivo, archivo2: Archivo) {
         //Verificamos si el libro no ha sido registrado previamente
         if (!archivo2.buscarRegistro(nombre)) {
             //Guardamos en el archivo
-            archivo2.escritorArchivo("$nombre$separador$apellido$separador$facultad1$separador$edad$separador$estado$separador")
+            archivo2.escritorArchivo("$nombre$separador$apellido$separador$facultad1$separador$edad$separador$estado$separador$saltoLinea")
             println("Profesor registrado exitósamente")
         } else {
             println("El profesor ya está registrado")

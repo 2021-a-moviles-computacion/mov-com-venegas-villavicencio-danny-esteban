@@ -260,25 +260,6 @@ fun validarBooleano(): Boolean {
     }
 }
 
-/*fun ingresarDate(): Date {
-    println("Ingrese fecha en formato dd/MM/yyyy:")
-    val dateFormat = SimpleDateFormat("dd/MM/yyyy") //Formato de ingreso
-    val date = ingresoPorTeclado().nextLine()
-    dateFormat.isLenient = false //evito que fechas inválidas ( más de 30 días o 12 meses) sean aceptadas
-    return try {
-        val dateIngresado = dateFormat.parse(date)
-        if (dateIngresado.before(Date.from(Instant.now()))) {//Fechas deben ser antes de fecha actual
-            dateIngresado
-        } else {
-            println("Fecha inválida")
-            ingresarDate()
-        }
-        return dateFormat.parse(date)
-    } catch (e: ParseException) {
-        println("Formato no válido")
-        ingresarDate() //Recursividad hasta recibir fecha válida
-    }
-}*/
 
 fun ingresoPorTeclado(): Scanner { //Ingreso teclado
     return Scanner(System.`in`)
