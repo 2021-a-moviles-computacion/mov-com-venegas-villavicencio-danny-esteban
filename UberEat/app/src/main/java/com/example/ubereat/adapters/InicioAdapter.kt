@@ -27,6 +27,10 @@ class InicioAdapter: RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         }
     }
 
+    fun submitList(pedidoList: List<Pedido>) {
+        items = pedidoList
+    }
+
     override fun getItemCount(): Int {
         return items.size
     }
@@ -52,6 +56,7 @@ class InicioAdapter: RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         val puntuacion = view.findViewById<TextView>(R.id.et_puntuacion)
 
 
+        //setea el esqueleto con los datos
         fun bind(pedido: Pedido) {
             imagen.setImageResource(pedido.imagenPedido)
             nombreLocal.setText(pedido.nombreLocal)
