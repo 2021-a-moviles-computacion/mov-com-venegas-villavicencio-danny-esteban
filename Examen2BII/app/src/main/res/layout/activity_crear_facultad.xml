@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearFacultad">
+
+    <EditText
+        android:id="@+id/txt_carrera"
+        android:layout_width="311dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Nombre de la Carreara"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/txt_nombre_facultad"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_nombre_facultad"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombre_facultad" />
+
+    <EditText
+        android:id="@+id/txt_direccion"
+        android:layout_width="311dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Direccion de la Facultad"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/txt_carrera"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_carrera"
+        app:layout_constraintTop_toBottomOf="@+id/txt_carrera" />
+
+    <EditText
+        android:id="@+id/txt_id_facultad"
+        android:layout_width="307dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Id de la facultad"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_nombre_facultad"
+        android:layout_width="311dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Nombre de la Facultad"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_id_facultad" />
+
+    <EditText
+        android:id="@+id/txt_telefono_facultad"
+        android:layout_width="311dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Telefono de la Facultad"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/txt_direccion"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_direccion"
+        app:layout_constraintTop_toBottomOf="@+id/txt_direccion" />
+
+    <Button
+        android:id="@+id/btn_crear_facultad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="Crear"
+        app:layout_constraintEnd_toEndOf="@+id/txt_telefono_facultad"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_telefono_facultad"
+        app:layout_constraintTop_toBottomOf="@+id/txt_telefono_facultad" />
+
+    <Button
+        android:id="@+id/btn_cancelar_facultad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="Cancelar"
+        app:layout_constraintEnd_toEndOf="@+id/txt_telefono_facultad"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_crear_facultad"
+        app:layout_constraintTop_toBottomOf="@+id/txt_telefono_facultad" />
+</androidx.constraintlayout.widget.ConstraintLayout>

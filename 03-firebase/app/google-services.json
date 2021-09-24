@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "974427044102",
+    "project_id": "mov-com-2021-a-cburbano",
+    "storage_bucket": "mov-com-2021-a-cburbano.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974427044102:android:268e9d6dafb096f8b1c687",
+        "android_client_info": {
+          "package_name": "com.example.fairebaseuno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974427044102-1mnj5pgge6sga6je6efnft8o5k26qldk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqyMjsVEjBw7mTE_Nqa89hELzxZS61bKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974427044102-1mnj5pgge6sga6je6efnft8o5k26qldk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
