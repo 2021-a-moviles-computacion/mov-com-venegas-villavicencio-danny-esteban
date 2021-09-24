@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditarFacultad">
+
+    <EditText
+        android:id="@+id/txt_id_facultad_editar"
+        android:layout_width="169dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Facultad iD"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_telefono_editar"
+        android:layout_width="311dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Telefono de la facultad"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/txt_direccion_editar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_direccion_editar"
+        app:layout_constraintTop_toBottomOf="@+id/txt_direccion_editar" />
+
+    <EditText
+        android:id="@+id/txt_nom_facultad_editar"
+        android:layout_width="311dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Nombre de la Facultad"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/txt_id_facultad_editar"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="@+id/txt_id_facultad_editar"
+        app:layout_constraintTop_toBottomOf="@+id/txt_id_facultad_editar" />
+
+    <EditText
+        android:id="@+id/txt_carrera_editar"
+        android:layout_width="311dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Nombre de la carrera"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/txt_nom_facultad_editar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_nom_facultad_editar"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nom_facultad_editar" />
+
+    <EditText
+        android:id="@+id/txt_direccion_editar"
+        android:layout_width="311dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Direccion de la Facultad"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/txt_carrera_editar"
+        app:layout_constraintStart_toStartOf="@+id/txt_carrera_editar"
+        app:layout_constraintTop_toBottomOf="@+id/txt_carrera_editar" />
+
+    <Button
+        android:id="@+id/btn_editar_facult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Editar"
+        app:layout_constraintEnd_toEndOf="@+id/txt_telefono_editar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txt_telefono_editar"
+        app:layout_constraintTop_toBottomOf="@+id/txt_telefono_editar" />
+
+    <Button
+        android:id="@+id/bnt_cancelar_edit_facult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Cancelar"
+        app:layout_constraintEnd_toEndOf="@+id/txt_telefono_editar"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toEndOf="@+id/btn_editar_facult"
+        app:layout_constraintTop_toBottomOf="@+id/txt_telefono_editar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

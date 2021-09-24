@@ -1,0 +1,2 @@
+rootProject.name = "UberEat"
+include ':app'

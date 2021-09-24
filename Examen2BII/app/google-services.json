@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "233686439090",
+    "project_id": "mov-com-2021-venegas-danny",
+    "storage_bucket": "mov-com-2021-venegas-danny.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233686439090:android:f1e8322ff2f3a4dc21a5ab",
+        "android_client_info": {
+          "package_name": "com.example.examen01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233686439090-ei1o1u2huo5lrfib0h201g55a6008f14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcHey7roM70tDtxDIygG4O25O6IBdpvDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233686439090-ei1o1u2huo5lrfib0h201g55a6008f14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233686439090:android:ed83f1dc7d67688721a5ab",
+        "android_client_info": {
+          "package_name": "com.example.examen2bii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233686439090-ei1o1u2huo5lrfib0h201g55a6008f14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcHey7roM70tDtxDIygG4O25O6IBdpvDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233686439090-ei1o1u2huo5lrfib0h201g55a6008f14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
